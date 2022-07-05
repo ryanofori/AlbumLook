@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D4F0AF72874E3FA0045A090 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4F0AF62874E3FA0045A090 /* AppDelegate.swift */; };
+		7D4F0AF92874E3FA0045A090 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4F0AF82874E3FA0045A090 /* SceneDelegate.swift */; };
+		7D4F0AFB2874E3FA0045A090 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4F0AFA2874E3FA0045A090 /* ViewController.swift */; };
+		7D4F0AFE2874E3FA0045A090 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D4F0AFC2874E3FA0045A090 /* Main.storyboard */; };
+		7D4F0B002874E3FE0045A090 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D4F0AFF2874E3FE0045A090 /* Assets.xcassets */; };
+		7D4F0B032874E3FE0045A090 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D4F0B012874E3FE0045A090 /* LaunchScreen.storyboard */; };
+		7D4F0B0E2874E3FE0045A090 /* Vema_AlbumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4F0B0D2874E3FE0045A090 /* Vema_AlbumTests.swift */; };
+		7D4F0B182874E3FE0045A090 /* Vema_AlbumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4F0B172874E3FE0045A090 /* Vema_AlbumUITests.swift */; };
+		7D4F0B1A2874E3FE0045A090 /* Vema_AlbumUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4F0B192874E3FE0045A090 /* Vema_AlbumUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7D4F0B0A2874E3FE0045A090 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D4F0AEB2874E3FA0045A090 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D4F0AF22874E3FA0045A090;
+			remoteInfo = "Vema Album";
+		};
+		7D4F0B142874E3FE0045A090 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D4F0AEB2874E3FA0045A090 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D4F0AF22874E3FA0045A090;
+			remoteInfo = "Vema Album";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7D4F0AF32874E3FA0045A090 /* Vema Album.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vema Album.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D4F0AF62874E3FA0045A090 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7D4F0AF82874E3FA0045A090 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7D4F0AFA2874E3FA0045A090 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7D4F0AFD2874E3FA0045A090 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7D4F0AFF2874E3FE0045A090 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7D4F0B022874E3FE0045A090 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7D4F0B042874E3FE0045A090 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D4F0B092874E3FE0045A090 /* Vema AlbumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vema AlbumTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D4F0B0D2874E3FE0045A090 /* Vema_AlbumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vema_AlbumTests.swift; sourceTree = "<group>"; };
+		7D4F0B132874E3FE0045A090 /* Vema AlbumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vema AlbumUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D4F0B172874E3FE0045A090 /* Vema_AlbumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vema_AlbumUITests.swift; sourceTree = "<group>"; };
+		7D4F0B192874E3FE0045A090 /* Vema_AlbumUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vema_AlbumUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D4F0AF02874E3FA0045A090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D4F0B062874E3FE0045A090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D4F0B102874E3FE0045A090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D4F0AEA2874E3FA0045A090 = {
+			isa = PBXGroup;
+			children = (
+				7D4F0AF52874E3FA0045A090 /* Vema Album */,
+				7D4F0B0C2874E3FE0045A090 /* Vema AlbumTests */,
+				7D4F0B162874E3FE0045A090 /* Vema AlbumUITests */,
+				7D4F0AF42874E3FA0045A090 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D4F0AF42874E3FA0045A090 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D4F0AF32874E3FA0045A090 /* Vema Album.app */,
+				7D4F0B092874E3FE0045A090 /* Vema AlbumTests.xctest */,
+				7D4F0B132874E3FE0045A090 /* Vema AlbumUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D4F0AF52874E3FA0045A090 /* Vema Album */ = {
+			isa = PBXGroup;
+			children = (
+				7D4F0AF62874E3FA0045A090 /* AppDelegate.swift */,
+				7D4F0AF82874E3FA0045A090 /* SceneDelegate.swift */,
+				7D4F0AFA2874E3FA0045A090 /* ViewController.swift */,
+				7D4F0AFC2874E3FA0045A090 /* Main.storyboard */,
+				7D4F0AFF2874E3FE0045A090 /* Assets.xcassets */,
+				7D4F0B012874E3FE0045A090 /* LaunchScreen.storyboard */,
+				7D4F0B042874E3FE0045A090 /* Info.plist */,
+			);
+			path = "Vema Album";
+			sourceTree = "<group>";
+		};
+		7D4F0B0C2874E3FE0045A090 /* Vema AlbumTests */ = {
+			isa = PBXGroup;
+			children = (
+				7D4F0B0D2874E3FE0045A090 /* Vema_AlbumTests.swift */,
+			);
+			path = "Vema AlbumTests";
+			sourceTree = "<group>";
+		};
+		7D4F0B162874E3FE0045A090 /* Vema AlbumUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7D4F0B172874E3FE0045A090 /* Vema_AlbumUITests.swift */,
+				7D4F0B192874E3FE0045A090 /* Vema_AlbumUITestsLaunchTests.swift */,
+			);
+			path = "Vema AlbumUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D4F0AF22874E3FA0045A090 /* Vema Album */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D4F0B1D2874E3FE0045A090 /* Build configuration list for PBXNativeTarget "Vema Album" */;
+			buildPhases = (
+				7D4F0AEF2874E3FA0045A090 /* Sources */,
+				7D4F0AF02874E3FA0045A090 /* Frameworks */,
+				7D4F0AF12874E3FA0045A090 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Vema Album";
+			productName = "Vema Album";
+			productReference = 7D4F0AF32874E3FA0045A090 /* Vema Album.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7D4F0B082874E3FE0045A090 /* Vema AlbumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D4F0B202874E3FE0045A090 /* Build configuration list for PBXNativeTarget "Vema AlbumTests" */;
+			buildPhases = (
+				7D4F0B052874E3FE0045A090 /* Sources */,
+				7D4F0B062874E3FE0045A090 /* Frameworks */,
+				7D4F0B072874E3FE0045A090 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D4F0B0B2874E3FE0045A090 /* PBXTargetDependency */,
+			);
+			name = "Vema AlbumTests";
+			productName = "Vema AlbumTests";
+			productReference = 7D4F0B092874E3FE0045A090 /* Vema AlbumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7D4F0B122874E3FE0045A090 /* Vema AlbumUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D4F0B232874E3FE0045A090 /* Build configuration list for PBXNativeTarget "Vema AlbumUITests" */;
+			buildPhases = (
+				7D4F0B0F2874E3FE0045A090 /* Sources */,
+				7D4F0B102874E3FE0045A090 /* Frameworks */,
+				7D4F0B112874E3FE0045A090 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D4F0B152874E3FE0045A090 /* PBXTargetDependency */,
+			);
+			name = "Vema AlbumUITests";
+			productName = "Vema AlbumUITests";
+			productReference = 7D4F0B132874E3FE0045A090 /* Vema AlbumUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D4F0AEB2874E3FA0045A090 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					7D4F0AF22874E3FA0045A090 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					7D4F0B082874E3FE0045A090 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 7D4F0AF22874E3FA0045A090;
+					};
+					7D4F0B122874E3FE0045A090 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 7D4F0AF22874E3FA0045A090;
+					};
+				};
+			};
+			buildConfigurationList = 7D4F0AEE2874E3FA0045A090 /* Build configuration list for PBXProject "Vema Album" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7D4F0AEA2874E3FA0045A090;
+			productRefGroup = 7D4F0AF42874E3FA0045A090 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D4F0AF22874E3FA0045A090 /* Vema Album */,
+				7D4F0B082874E3FE0045A090 /* Vema AlbumTests */,
+				7D4F0B122874E3FE0045A090 /* Vema AlbumUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D4F0AF12874E3FA0045A090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D4F0B032874E3FE0045A090 /* LaunchScreen.storyboard in Resources */,
+				7D4F0B002874E3FE0045A090 /* Assets.xcassets in Resources */,
+				7D4F0AFE2874E3FA0045A090 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D4F0B072874E3FE0045A090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D4F0B112874E3FE0045A090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D4F0AEF2874E3FA0045A090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D4F0AFB2874E3FA0045A090 /* ViewController.swift in Sources */,
+				7D4F0AF72874E3FA0045A090 /* AppDelegate.swift in Sources */,
+				7D4F0AF92874E3FA0045A090 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D4F0B052874E3FE0045A090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D4F0B0E2874E3FE0045A090 /* Vema_AlbumTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D4F0B0F2874E3FE0045A090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D4F0B182874E3FE0045A090 /* Vema_AlbumUITests.swift in Sources */,
+				7D4F0B1A2874E3FE0045A090 /* Vema_AlbumUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7D4F0B0B2874E3FE0045A090 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D4F0AF22874E3FA0045A090 /* Vema Album */;
+			targetProxy = 7D4F0B0A2874E3FE0045A090 /* PBXContainerItemProxy */;
+		};
+		7D4F0B152874E3FE0045A090 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D4F0AF22874E3FA0045A090 /* Vema Album */;
+			targetProxy = 7D4F0B142874E3FE0045A090 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7D4F0AFC2874E3FA0045A090 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D4F0AFD2874E3FA0045A090 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7D4F0B012874E3FE0045A090 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D4F0B022874E3FE0045A090 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7D4F0B1B2874E3FE0045A090 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7D4F0B1C2874E3FE0045A090 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D4F0B1E2874E3FE0045A090 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Vema Album/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ryanofori.Vema-Album";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7D4F0B1F2874E3FE0045A090 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Vema Album/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ryanofori.Vema-Album";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7D4F0B212874E3FE0045A090 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ryanofori.Vema-AlbumTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vema Album.app/Vema Album";
+			};
+			name = Debug;
+		};
+		7D4F0B222874E3FE0045A090 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ryanofori.Vema-AlbumTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vema Album.app/Vema Album";
+			};
+			name = Release;
+		};
+		7D4F0B242874E3FE0045A090 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ryanofori.Vema-AlbumUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Vema Album";
+			};
+			name = Debug;
+		};
+		7D4F0B252874E3FE0045A090 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ryanofori.Vema-AlbumUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Vema Album";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D4F0AEE2874E3FA0045A090 /* Build configuration list for PBXProject "Vema Album" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D4F0B1B2874E3FE0045A090 /* Debug */,
+				7D4F0B1C2874E3FE0045A090 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D4F0B1D2874E3FE0045A090 /* Build configuration list for PBXNativeTarget "Vema Album" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D4F0B1E2874E3FE0045A090 /* Debug */,
+				7D4F0B1F2874E3FE0045A090 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D4F0B202874E3FE0045A090 /* Build configuration list for PBXNativeTarget "Vema AlbumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D4F0B212874E3FE0045A090 /* Debug */,
+				7D4F0B222874E3FE0045A090 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D4F0B232874E3FE0045A090 /* Build configuration list for PBXNativeTarget "Vema AlbumUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D4F0B242874E3FE0045A090 /* Debug */,
+				7D4F0B252874E3FE0045A090 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D4F0AEB2874E3FA0045A090 /* Project object */;
+}
