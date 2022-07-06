@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class AlbumListVC: UIViewController {
     
     var myCollectionview: UICollectionView?
 
@@ -37,11 +37,16 @@ class ViewController: UIViewController {
 
 }
 
-extension ViewController: UICollectionViewDelegate {
-    
+extension AlbumListVC: UICollectionViewDelegate {
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        print("You tapped \(indexPath.row)")
+        self.navigationController?.pushViewController(AlbumDetailVC(), animated: true)
+//        let nextViewController = self.instantiateViewController(withIdentifier: "AlbumDetailVC") as! AlbumDetailVC
+//        self.present(nextViewController, animated:true, completion:nil)
+    }
 }
 
-extension ViewController: UICollectionViewDataSource {
+extension AlbumListVC: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return 100
     }
@@ -49,7 +54,7 @@ extension ViewController: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "MyCell", for: indexPath)
         cell.backgroundColor = .blue
-        cell.layer.cornerRadius = 25
+        cell.layer.cornerRadius = 20
         return cell /*?? UICollectionViewCell()*/
     }
     
