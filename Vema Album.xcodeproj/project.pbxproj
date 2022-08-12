@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		7D2EF8312875100B007FB6BC /* AlbumDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2EF8302875100B007FB6BC /* AlbumDetailVC.swift */; };
 		7D2EF8332875342A007FB6BC /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2EF8322875342A007FB6BC /* CustomCollectionViewCell.swift */; };
+		7D2EF83A2875737E007FB6BC /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2EF8392875737E007FB6BC /* NetworkManager.swift */; };
+		7D2EF83C287574FA007FB6BC /* URLBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2EF83B287574FA007FB6BC /* URLBuilder.swift */; };
+		7D2EF83E28758F4F007FB6BC /* AlbumDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2EF83D28758F4F007FB6BC /* AlbumDetailView.swift */; };
 		7D4F0AF72874E3FA0045A090 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4F0AF62874E3FA0045A090 /* AppDelegate.swift */; };
 		7D4F0AF92874E3FA0045A090 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4F0AF82874E3FA0045A090 /* SceneDelegate.swift */; };
 		7D4F0AFB2874E3FA0045A090 /* AlbumListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4F0AFA2874E3FA0045A090 /* AlbumListVC.swift */; };
@@ -39,6 +42,9 @@
 /* Begin PBXFileReference section */
 		7D2EF8302875100B007FB6BC /* AlbumDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailVC.swift; sourceTree = "<group>"; };
 		7D2EF8322875342A007FB6BC /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		7D2EF8392875737E007FB6BC /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		7D2EF83B287574FA007FB6BC /* URLBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLBuilder.swift; sourceTree = "<group>"; };
+		7D2EF83D28758F4F007FB6BC /* AlbumDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailView.swift; sourceTree = "<group>"; };
 		7D4F0AF32874E3FA0045A090 /* Vema Album.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vema Album.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D4F0AF62874E3FA0045A090 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7D4F0AF82874E3FA0045A090 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +87,8 @@
 		7D2EF834287536F8007FB6BC /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				7D2EF8392875737E007FB6BC /* NetworkManager.swift */,
+				7D2EF83B287574FA007FB6BC /* URLBuilder.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -106,6 +114,13 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		7D2EF838287566C2007FB6BC /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
 		7D4F0AEA2874E3FA0045A090 = {
 			isa = PBXGroup;
 			children = (
@@ -129,6 +144,7 @@
 		7D4F0AF52874E3FA0045A090 /* Vema Album */ = {
 			isa = PBXGroup;
 			children = (
+				7D2EF838287566C2007FB6BC /* CoreData */,
 				7D2EF83528753701007FB6BC /* Model */,
 				7D2EF83628753708007FB6BC /* ViewModel */,
 				7D2EF83728753715007FB6BC /* View */,
@@ -141,6 +157,7 @@
 				7D4F0B042874E3FE0045A090 /* Info.plist */,
 				7D2EF8302875100B007FB6BC /* AlbumDetailVC.swift */,
 				7D2EF8322875342A007FB6BC /* CustomCollectionViewCell.swift */,
+				7D2EF83D28758F4F007FB6BC /* AlbumDetailView.swift */,
 			);
 			path = "Vema Album";
 			sourceTree = "<group>";
@@ -292,11 +309,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D2EF83A2875737E007FB6BC /* NetworkManager.swift in Sources */,
+				7D2EF83C287574FA007FB6BC /* URLBuilder.swift in Sources */,
 				7D4F0AFB2874E3FA0045A090 /* AlbumListVC.swift in Sources */,
 				7D2EF8332875342A007FB6BC /* CustomCollectionViewCell.swift in Sources */,
 				7D4F0AF72874E3FA0045A090 /* AppDelegate.swift in Sources */,
 				7D4F0AF92874E3FA0045A090 /* SceneDelegate.swift in Sources */,
 				7D2EF8312875100B007FB6BC /* AlbumDetailVC.swift in Sources */,
+				7D2EF83E28758F4F007FB6BC /* AlbumDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
